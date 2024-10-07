@@ -109,7 +109,7 @@ a{
     
 }
 .juegosrecientes div h3{
-    background-color: red;
+    background-color: #0051ffd7;
     color: white;
     display: flex;
     flex-direction: column;
@@ -191,7 +191,7 @@ a{
 }
 .juegos h4{
     color: white;
-    background-color: red;
+    background-color: #0051ffd7;
 }
 .juegos a{
     color: white;
