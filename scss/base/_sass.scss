@@ -1,0 +1,37 @@
+
+$color-principal: blue;
+$color-secundario: black;
+$color-terciario: green;
+
+
+$colores: red, green, blue, tomato, aqua;
+$font-size: 16px, 22px, 25px, 28px;
+
+
+$ancho:215px;
+
+
+
+
+
+%flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+@mixin flex($flex, $justify, $align, $text-align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+    text-align: $text-align;
+}
+
+
+
+
+
+

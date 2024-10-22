@@ -1,0 +1,45 @@
+.btn-outline-success{
+    background-color: #ffffffd7 !important;
+    border-color: blue !important;
+}
+.bg-nav{
+    background-color: #0051ffd7;
+}
+
+.nuestrasucursal{
+    @extend %flex-center;
+}
+.nuestrasucursal{
+    @include flex(flex, center, center, center)
+}
+.nuestrasucursal{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color:rgb(255, 255, 255);
+    background-color: rgba(25, 0, 255, 0.856);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    h2{
+
+    }
+}
+.parrafo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    p{
+
+    }
+}
+.mapa{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    iframe{
+        
+    }
+}
