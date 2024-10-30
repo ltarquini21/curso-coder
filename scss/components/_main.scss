@@ -279,8 +279,11 @@ main{
         }
     }
     .textos{
-        color: rgb(42, 63, 131);
-        background-color: rgba(255, 255, 255, 0);
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        color:burlywood;
         text-align: center;
         background-position: center;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -292,7 +295,7 @@ main{
         }
     }
     .hero{
-        height: 20vh;
+        height: 70vh;
         text-align: center;
         background-image: url(../img/fondodeweb.jpg);
         background-position: center;
@@ -303,14 +306,15 @@ main{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        position: relative;
         a{
             h2{
                 color: white; 
                 background-color: black;
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                 top: 50px;
-                padding: 2px;
-                margin: 0 auto;
+                padding: 5px;
+                margin-top: 400px;
                 
             
             }
@@ -321,5 +325,5 @@ main{
     @extend %flex-center;
 }
 .hero{
-    @include flex(flex, space-between, center, center)
+    @include flex(flex, center, center, center)
 }
