@@ -1,0 +1,456 @@
+.nuestrasucursal, .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.btn-outline-success {
+  background-color: #ffffffd7 !important;
+  border-color: blue !important; }
+
+.bg-nav {
+  background-color: #0051ffd7; }
+
+.nuestrasucursal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.nuestrasucursal {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: white;
+  background-color: rgba(25, 0, 255, 0.856);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center; }
+
+.parrafo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; }
+
+.mapa {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.formu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px; }
+
+.btn-outline-success {
+  background-color: #ffffffd7 !important;
+  border-color: blue !important; }
+
+.bg-nav {
+  background-color: #0051ffd7; }
+
+.jpd {
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.probandodiv {
+  margin-top: 50px;
+  color: white;
+  background-color: black;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center; }
+
+.accesorios {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+  .accesorios div {
+    border: 2px solid green;
+    width: 270px;
+    height: 410px;
+    text-align: center;
+    margin: 15px;
+    background-color: #7a90cc;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif; }
+  .accesorios h3 {
+    background-color: #0051ffd7;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap; }
+  .accesorios img {
+    width: 250px;
+    height: 250px;
+    padding: 12px; }
+  .accesorios a {
+    color: white;
+    background-color: black;
+    padding: 5px;
+    font-size: 20px; }
+  .accesorios div:hover {
+    transition: 1s;
+    transform: scale(1.1);
+    box-shadow: 3px 3px 3px 3px; }
+
+.btn-outline-success {
+  background-color: #ffffffd7 !important;
+  border-color: blue !important; }
+
+.bg-nav {
+  background-color: #0051ffd7; }
+
+main .ps5 {
+  grid-column: span 2; }
+
+main .pstore {
+  grid-row: span 2; }
+
+main .psn {
+  grid-row: span 2; }
+
+main .grid-imagenes {
+  width: 100%;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 250px;
+  gap: 15px; }
+  main .grid-imagenes .grid-item {
+    position: relative; }
+    main .grid-imagenes .grid-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    main .grid-imagenes .grid-item h3 {
+      position: absolute;
+      bottom: 0px;
+      color: rgba(255, 0, 0, 0.774);
+      background-color: rgba(0, 0, 0, 0.089);
+      width: 100%;
+      padding: 6px; }
+
+main .iframe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px; }
+
+main .nuevaps5 {
+  margin-top: 80px;
+  padding: 2px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  color: white;
+  background-color: black; }
+
+main .bootstrap {
+  margin-top: 20px; }
+
+main .joysticks {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  background-color: black;
+  font-size: 30px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center; }
+
+main .juegos div img {
+  width: 215px; }
+
+main .juegos {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+  main .juegos div {
+    border: 1px solid #020080;
+    width: 270px;
+    height: 450px;
+    margin: 15px;
+    background-color: #7a90cc;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif; }
+    main .juegos div h4 {
+      color: white;
+      background-color: #0051ffd7; }
+    main .juegos div img {
+      width: 270px;
+      height: 270px;
+      padding: 12px; }
+    main .juegos div a {
+      color: white;
+      background-color: black;
+      padding: 7px;
+      font-size: 16px; }
+  main .juegos div:hover {
+    transition: 1s;
+    transform: scale(1.1);
+    box-shadow: 3px 3px 3px 3px; }
+
+main .proxjuegos a {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+  background-color: black; }
+
+main .juegosrecientes div h3 {
+  color: green;
+  font-size: 28px; }
+
+main .juegosrecientes {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+  main .juegosrecientes div {
+    border: 2px solid green;
+    width: 270px;
+    height: 400px;
+    text-align: center;
+    margin: 10px;
+    background-color: #7a90cc;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif; }
+    main .juegosrecientes div h3 {
+      background-color: #0051ffd7;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap; }
+    main .juegosrecientes div img {
+      width: 250px;
+      height: 250px;
+      padding: 12px; }
+    main .juegosrecientes div a {
+      color: white;
+      background-color: black;
+      padding: 5px;
+      font-size: 20px; }
+  main .juegosrecientes div:hover {
+    transition: 1s;
+    transform: scale(1.1);
+    box-shadow: 3px 3px 3px 3px; }
+
+main .textos {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: burlywood;
+  text-align: center;
+  background-position: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  main .textos div h2 {
+    color: #003cff;
+    margin: 40px; }
+
+main .hero {
+  height: 70vh;
+  text-align: center;
+  background-image: url(../img/fondodeweb.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative; }
+  main .hero a h2 {
+    color: white;
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 50px;
+    padding: 5px;
+    margin-top: 400px; }
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.footer-links h4 {
+  color: tomato;
+  font-size: 22px; }
+
+.footer {
+  background-color: #2e2edf;
+  padding: 80px;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.footer-links {
+  width: 25%;
+  padding: 0px;
+  margin-bottom: 20px; }
+  .footer-links h4 {
+    font-size: 20px;
+    color: white;
+    font-weight: 500px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #00c3ff;
+    display: inline-block; }
+  .footer-links ul li a {
+    color: white;
+    transition: all .3s ease; }
+    .footer-links ul li a:hover {
+      color: red;
+      padding-left: 6px; }
+    .footer-links ul li a img {
+      width: 25px;
+      height: 25px;
+      margin: 6px; }
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+/*!-----NOSOTROS------*/
+@media screen and (max-width: 602px) {
+  .nuestrasucursal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+  .parrafo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+  .mapa {
+    width: 100px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center; } }
+
+/*!-----FOOTER----*/
+@media screen and (max-width: 940px) {
+  .footer-row {
+    text-align: center; }
+  .footer-links {
+    width: 100%;
+    margin-bottom: 30px; } }
+
+@media screen and (max-width: 960px) {
+  .formu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 90%; } }
+
+/*!--------MAIN------*/
+@media screen and (max-width: 450px) {
+  .joysticks h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; } }
+
+@media screen and (max-width: 650px) {
+  .nuevaps5 h2 {
+    display: none; }
+  .iframe iframe {
+    display: none; }
+  .grid-imagenes {
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 250px; } }
+
+@media screen and (max-width: 735px) {
+  .jpd h2 {
+    color: #db0606;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%; } }
+
+@media screen and (max-width: 850px) {
+  .textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .textos div {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .textos div h2 {
+        text-align: center;
+        width: 100%;
+        margin: 0; }
+      .textos div p {
+        text-align: center;
+        width: 100%;
+        margin: 0; } }
+
+@media screen and (max-width: 995px) {
+  .grid-imagenes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 250px; }
+  h3 {
+    display: none; } }
+
+@media screen and (max-width: 1061px) {
+  header {
+    flex-direction: column; } }
+
+@media screen and (max-width: 1200px) {
+  .hero a h2 {
+    flex-direction: column; }
+  .grid-imagenes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px; }
+    .grid-imagenes .grid-item {
+      grid-column: span 1;
+      grid-row: span 1; } }
